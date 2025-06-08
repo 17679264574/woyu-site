@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WOYU - 品牌官网</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #000000;
+      font-family: "Helvetica Neue", sans-serif;
+    }header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+section.hero {
+  padding: 6rem 2rem 3rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+}
+
+section.about, section.products, section.contact {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product-item {
+  flex: 1 1 200px;
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-item h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    margin-left: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WOYU</div>
+    <nav>
+      <a href=" ">首页</a >
+      <a href="#about">品牌介绍</a >
+      <a href="#products">产品展示</a >
+      <a href="#contact">联系我们</a >
+    </nav>
+  </header>  <section class="hero">
+    <h1>极简而不简单</h1>
+    <p>WOYU 是一个注重质感与设计的服装品牌，用最纯粹的方式传递最真实的风格。</p >
+  </section>  <section class="about" id="about">
+    <h2>品牌介绍</h2>
+    <p>WOYU 创立于 2025 年，专注于极简、黑白风格的高端服饰。我们相信极致的简洁，是永恒的时尚。</p >
+  </section>  <section class="products" id="products">
+    <h2>产品展示</h2>
+    <div class="product-list">
+      <div class="product-item">
+        < img src="https://via.placeholder.com/300x400?text=黑色T恤" alt="黑色T恤">
+        <h3>黑色极简T恤</h3>
+      </div>
+      <div class="product-item">
+        < img src="https://via.placeholder.com/300x400?text=白色卫衣" alt="白色卫衣">
+        <h3>白色简约卫衣</h3>
+      </div>
+      <div class="product-item">
+        < img src="https://via.placeholder.com/300x400?text=长款风衣" alt="长款风衣">
+        <h3>高级长款风衣</h3>
+      </div>
+    </div>
+  </section>  <section class="contact" id="contact">
+    <h2>联系我们</h2>
+    <p>邮箱：contact@woyu.top</p >
+    <p>微信：WOYU官方</p >
+    <p>Instagram：@woyu.official</p >
+  </section>  <footer>
+    &copy; 2025 WOYU 品牌版权所有
+  </footer>
+</body>
+</html>
